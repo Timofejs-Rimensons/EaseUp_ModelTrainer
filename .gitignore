@@ -3,3 +3,4 @@ Dataset/*
 !Dataset/.gitkeep
 
 *.pt
+*.yaml
