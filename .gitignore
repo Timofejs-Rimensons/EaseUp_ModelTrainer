@@ -1,2 +1,5 @@
 venv/
-Data/*
+Dataset/*
+!Dataset/.gitkeep
+
+*.pt
