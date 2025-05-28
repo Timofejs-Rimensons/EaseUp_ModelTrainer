@@ -6,10 +6,11 @@ if __name__ == "__main__":
 
     # Train
     model.train(
-        data="Dataset/data.yaml",  # path to your data.yaml
+        data="Dataset/data.yaml", 
         epochs=50,
-        imgsz=640,
+        imgsz=320,
         batch=16,
-        name="yolov11n_model_name",
-        device=0
+        name="yolov11n_easeup",
+        device=0,            
+        mosaic=0, 
     )
